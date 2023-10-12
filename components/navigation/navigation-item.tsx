@@ -39,7 +39,6 @@ export const NavigationItem = ({
                     parms?.serverId !== id && "group-hover:h-[20px]",
                     parms?.serverId === id ? "h-[36px]" : "h-[8px]"
                 )} />
-                  server
                   <div className={cn(
                     "relative group flex mx-3 h-[48px] w-[48px] rounded-[24px] group-hover:rounded-[16px] transition-all overflow-hidden", 
                     parms?.serverId === id && "bg-primary/10 text-primary rounded-[16px]"
